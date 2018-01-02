@@ -43,10 +43,10 @@ const router = new VueRouter({
 
 new Vue({
 	data: {
-		hasLogin: false,
+		hasLogin: true,
 	},
 	mounted() {
-		this.hasLogin = window.localStorage.getItem('hasLoginPlatform');
+		// this.hasLogin = window.localStorage.getItem('hasLoginPlatform');
 	},
 	methods: {
 		changeStatusTrue() {
