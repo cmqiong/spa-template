@@ -9,7 +9,7 @@ module.exports = {
 		"wangEditor": true,
 	},
 	"plugins": [
-		'html'
+		'html',
 	],
 	"rules" : {
 		"global-require": 0,
@@ -28,8 +28,13 @@ module.exports = {
 		"no-console": 0,
 		"no-param-reassign": 0,
 		"no-underscore-dangle": 0,
-    "linebreak-style": 0
+    "linebreak-style": 0,
+    "no-else-return": 0,
+    "max-len": ["error", 150],
+    "object-shorthand": 0,
+    "no-restricted-syntax": 0,
+		"guard-for-in": 0
 		/*"eslint no-unused-expressions": ["error", { "allowShortCircuit": true }]*/
-	}
+	},
 };
 

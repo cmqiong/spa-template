@@ -1,5 +1,4 @@
-import {
-} from './../../mutation-types';
+import {} from './../../mutation-types';
 
 const state = {
 };
@@ -14,8 +13,8 @@ const mutations = {
 };
 
 export default {
-	state,
-	getters,
-	actions,
-	mutations,
+  state,
+  getters,
+  actions,
+  mutations,
 };
